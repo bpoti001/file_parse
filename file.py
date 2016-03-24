@@ -3,6 +3,7 @@ present=[] # a list to store all locations in script
 for line in fi:
     present.append(line.strip()) #strips is \n from a line
 fi.close()
+count_of_first_file = len(present)
 prefix ='string_to_append_in_start'
 postfix ='string_to_append_in_end'
 updated=[] #list to store new locations
